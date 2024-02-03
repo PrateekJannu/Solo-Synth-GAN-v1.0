@@ -33,7 +33,7 @@ def get_arguments():
     parser.add_argument('--start_scale', type=int, help='at which stage to start training', default=0)
 
   
-    parser.add_argument('--niter', type=int, default=2000, help='number of epochs to train per scale')
+    parser.add_argument('--niter', type=int, default=200, help='number of epochs to train per scale')
     parser.add_argument('--gamma',type=float,help='scheduler gamma',default=0.1)
     parser.add_argument('--lr_g', type=float, default=0.0005, help='learning rate, default=0.0005')
     parser.add_argument('--lr_d', type=float, default=0.0005, help='learning rate, default=0.0005')
