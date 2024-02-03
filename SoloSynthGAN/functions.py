@@ -44,3 +44,20 @@ def load_config(opt):
     return opt
 
 
+def generate_dir2save(opt):
+    training_image_name = opt.input_name[:-4].split("/")[-1]
+    dir2save = 'TrainedModels/{}/'.format(training_image_name)
+    dir2save += opt.timestamp
+    dir2save += "_{}".format(opt.train_mode)
+    if opt.train_mode == "harmonization" or opt.train_mode == "editing":
+        if opt.fine_tune:
+            dir2save += "_{}".format("fine-tune")
+    dir2save += "_train_depth_{}_lr_scale_{}".format(opt.train_depth, opt.lr_scale)
+    if opt.batch_norm:
+        dir2save += "_BN"
+    dir2save += "_act_" + opt.activation
+    if opt.activation == "lrelu":
+        dir2save += "_" + str(opt.lrelu_alpha)
+
+    return dir2save
+

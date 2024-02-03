@@ -9,6 +9,7 @@ import random
 import torch
 import math
 import argparse
+from SoloSynthGAN import functions
 
 
 def get_arguments():
@@ -89,3 +90,38 @@ if __name__ == '__main__':
         print("Please specify a valid image.")
         exit()
 
+    if torch.cuda.is_available():
+        torch.cuda.set_device(opt.gpu)
+
+
+    if opt.train_mode == "generation" or opt.train_mode == "retarget" or opt.train_mode == "animation":
+        if opt.train_mode == "animation":
+            opt.min_size = 20
+        from SoloSynthGAN.training_generation import *
+
+    dir2save = functions.generate_dir2save(opt)
+
+    if osp.exists(dir2save):
+        print('Trained model already exist: {}'.format(dir2save))
+        exit()
+    try:
+        os.makedirs(dir2save)
+    except OSError:
+        pass
+
+    with open(osp.join(dir2save, 'parameters.txt'), 'w') as f:
+        for o in opt.__dict__:
+            f.write("{}\t-\t{}\n".format(o, opt.__dict__[o]))
+    current_path = os.path.dirname(os.path.abspath(__file__))
+    for py_file in glob.glob(osp.join(current_path, "*.py")):
+        copyfile(py_file, osp.join(dir2save, py_file.split("/")[-1]))
+    copytree(osp.join(current_path, "SoloSynthGAN"), osp.join(dir2save, "SoloSynthGAN"))
+
+
+
+    print("Training model ({})".format(dir2save))
+    start = time.time()
+    train(opt)
+    end = time.time()
+    elapsed_time = end - start
+    print("Time for training: {} seconds".format(elapsed_time))
