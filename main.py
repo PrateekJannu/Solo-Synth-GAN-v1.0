@@ -33,7 +33,7 @@ def get_arguments():
     parser.add_argument('--start_scale', type=int, help='at which stage to start training', default=0)
 
   
-    parser.add_argument('--niter', type=int, default=200, help='number of epochs to train per scale')
+    parser.add_argument('--niter', type=int, default=800, help='number of epochs to train per scale')
     parser.add_argument('--gamma',type=float,help='scheduler gamma',default=0.1)
     parser.add_argument('--lr_g', type=float, default=0.0005, help='learning rate, default=0.0005')
     parser.add_argument('--lr_d', type=float, default=0.0005, help='learning rate, default=0.0005')
@@ -59,8 +59,8 @@ if __name__ == '__main__':
     parser.add_argument('--train_mode', default='generation',
                         choices=['generation', 'retarget', 'harmonization', 'editing', 'animation'],
                         help="generation, retarget, harmonization, editing, animation")
-    parser.add_argument('--lr_scale', type=float, help='scaling of learning rate for lower stages', default=0.1)
-    parser.add_argument('--train_stages', type=int, help='how many stages to use for training', default=6)
+    parser.add_argument('--lr_scale', type=float, help='scaling of learning rate for lower stages', default=0.12)
+    parser.add_argument('--train_stages', type=int, help='how many stages to use for training', default=9)
 
     parser.add_argument('--fine_tune', action='store_true', help='whether to fine tune on a given image', default=0)
     parser.add_argument('--model_dir', help='model to be used for fine tuning (harmonization or editing)', default="")
