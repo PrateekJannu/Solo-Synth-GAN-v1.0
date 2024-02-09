@@ -1,4 +1,6 @@
 # Solo-Synth-GAN-v1.0
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+
 This is the open-source repository for the project "Solo-Synth GAN" which is one of the latest zero shot generative adversarial network
 
 
@@ -31,6 +33,11 @@ python main.py --gpu 0 --train_mode generation --input_name Images/marinabaysand
 ```
 
 Training a single model typically takes about 8 minutes on a NVIDIA® V100 Tensor Core.
+
+| Original Image | Generated Samples |
+| --- | --- |
+| ![Original](Images/marinabaysands.jpg) | ![Original](Examples/gen_sample_0.jpg) ![Original](Examples/gen_sample_10.jpg)  ![Original](Examples/gen_sample_18.jpg) |
+| git diff | Show file differences that haven't been staged |
 
 ## Customization Options
 
