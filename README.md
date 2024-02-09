@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ## Unconditional Generation (GPU is a must and required for training and generation)
 
-To train a model with default parameters from our paper, execute:
+To train a model with default parameters from our paper(to be published), execute:
 
 ```bash
 python main.py --gpu 0 --train_mode generation --input_name Images/marinabaysands.jpg
@@ -66,11 +66,11 @@ python main.py --gpu 0 --train_mode retarget --input_name Images/colusseum.png
 
 To train an animation model or generate GIFs from a trained model, refer to the provided commands in the repository.
 
-## Harmonization and Editing
+## Harmonization and Editing(Coming Soon!)
 
 Instructions for training models for harmonization and editing tasks, as well as fine-tuning and evaluation, are included in the repository.
 
-## Additional Data
+## Additional Data(Coming Soon!)
 
 The `User-Studies` folder contains raw images used for conducting user studies.
 
