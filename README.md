@@ -24,7 +24,7 @@ Our model architecture is based on PyTorch 1.1.0 and Python 3.8. For installatio
 pip install -r requirements.txt
 ```
 
-## Unconditional Generation
+## Unconditional Generation (GPU is a must and required for training and generation)
 
 To train a model with default parameters from our paper, execute:
 
@@ -36,7 +36,7 @@ Training a single model typically takes about 8 minutes on a NVIDIA® V100 Tenso
 
 | Original Image | Generated Samples |
 | --- | --- |
-| ![Original](Images/marinabaysands.jpg) | ![Original](Examples/gen_sample_0.jpg) ![Original](Examples/gen_sample_10.jpg)  ![Original](Examples/gen_sample_18.jpg) |
+| ![Original](Images/marinabaysands.jpg) | ![Original](Examples/gen_sample_0.jpg) ![Original](Examples/gen_sample_10.jpg)  ![Original](Examples/gen_sample_18.jpg) ![Original](Examples/gen_sample_0.jpg)|
 |  |  |
 
 ## Customization Options
