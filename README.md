@@ -44,13 +44,13 @@ Training a single model typically takes about 8 minutes on a NVIDIA® V100 Tenso
 To modify learning rate scaling or the number of trained stages, you can adjust parameters as follows:
 
 ```bash
-python main.py --gpu 0 --train_mode generation --input_name Images/Generation/colusseum.png --lr_scale 0.5
+python main.py --gpu 0 --train_mode generation --input_name Images/colusseum.png --lr_scale 0.5
 ```
 
 or
 
 ```bash
-python main.py --gpu 0 --train_mode generation --input_name Images/Generation/colusseum.png --train_stages 7
+python main.py --gpu 0 --train_mode generation --input_name Images/colusseum.png --train_stages 7
 ```
 
 
@@ -59,7 +59,7 @@ python main.py --gpu 0 --train_mode generation --input_name Images/Generation/co
 For generating images of arbitrary sizes, use the following command:
 
 ```bash
-python main.py --gpu 0 --train_mode retarget --input_name Images/Generation/colusseum.png
+python main.py --gpu 0 --train_mode retarget --input_name Images/colusseum.png
 ```
 
 ## Image Animation (Coming Soon!)
