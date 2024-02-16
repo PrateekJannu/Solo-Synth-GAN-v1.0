@@ -17,7 +17,7 @@ from test_functions import *
 import unittest
 
 from argparse import Namespace
-opt=Namespace(Dsteps=3, Gsteps=3, activation='lrelu', alpha=10, batch_norm=0, beta1=0.5, fine_tune=0, gamma=0.1, gpu=0, input_name='Images/marinabaysands.jpg', ker_size=3, lambda_grad=0.1, lr_d=0.0005, lr_g=0.0005, lr_scale=0.5, lrelu_alpha=0.05, manualSeed=None, max_size=250, min_size=25, model_dir='', naive_img='', nc_im=3, nfc=64, niter=1500, noise_amp=0.1, not_cuda=0, num_layer=3, padd_size=0, start_scale=0, train_depth=3, train_mode='generation', train_stages=6)
+opt=Namespace(Dsteps=3, Gsteps=3, activation='lrelu', alpha=10, batch_norm=0, beta1=0.5, fine_tune=0, gamma=0.1, gpu=0, input_name='Images/marinabaysands.jpg', ker_size=3, lambda_grad=0.1, lr_d=0.0005, lr_g=0.0005, lr_scale=0.5, lrelu_alpha=0.05, manualSeed=None, max_size=250, min_size=25, model_dir='', naive_img='', nc_im=3, nfc=64, niter=1500, noise_amp=0.1, not_cuda=1, num_layer=3, padd_size=0, start_scale=0, train_depth=3, train_mode='generation', train_stages=6)
 
 class Tests(unittest.TestCase):
 
