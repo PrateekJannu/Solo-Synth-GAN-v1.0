@@ -24,6 +24,14 @@ Our model architecture is based on PyTorch 1.1.0 and Python 3.8. For installatio
 pip install -r requirements.txt
 ```
 
+## Model Architecture GPU
+
+Our model architecture needs CUDA toolkit to run. For installation, please run:
+
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
 ## Unconditional Generation (GPU is a must and required for training and generation)
 
 To train a model with default parameters from our paper(to be published), execute:
