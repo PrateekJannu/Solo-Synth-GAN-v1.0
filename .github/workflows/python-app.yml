@@ -18,8 +18,8 @@ jobs:
 
     strategy:
         matrix:
-            os: [ubuntu-latest, windows-latest,macos-latest]
-            node-version: [12.x]
+            os: [ubuntu-latest, windows-latest]
+            python-version: [12.x]
 
 
     steps:
