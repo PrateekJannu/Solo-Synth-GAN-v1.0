@@ -19,7 +19,6 @@ jobs:
     strategy:
         matrix:
             os: [ubuntu-latest, windows-latest]
-            python-version: [12.x]
 
 
     steps:
