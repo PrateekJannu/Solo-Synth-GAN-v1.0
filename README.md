@@ -70,10 +70,19 @@ For generating images of arbitrary sizes, use the following command:
 python main.py --gpu 0 --train_mode retarget --input_name Images/colusseum.png
 ```
 
-## Image Animation (Coming Soon!)
+## Image 2 Video Zero Shot 
 
 To train an animation model or generate GIFs from a trained model, refer to the provided commands in the repository.
 
+For generating images of arbitrary sizes, use the following command:
+
+```bash
+python main.py --gpu 0 --train_mode animation --input_name Images/balloons.png
+```
+
+```bash
+python evaluate_model.py --gpu 0 --model_dir TrainedModels/balloons/...
+```
 ## Harmonization and Editing(Coming Soon!)
 
 Instructions for training models for harmonization and editing tasks, as well as fine-tuning and evaluation, are included in the repository.
