@@ -1,0 +1,2 @@
+from SoloSynthGAN.functions import *
+form standard_functions import *
