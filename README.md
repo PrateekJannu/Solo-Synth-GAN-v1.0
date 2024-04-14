@@ -3,7 +3,7 @@
 
 This is the open-source repository for the project "Solo-Synth GAN" which is one of the latest zero shot generative adversarial network
 
-
+![Pyramid](Images/fd9a974e36454b52a731b17f8695ac9e.jpeg)
 # Single-Image GANs: Improved Training Techniques
 
 For a concise summary of our paper, please refer to our [blog post](https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0).(Will be updated once paper is published)
