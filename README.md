@@ -1,4 +1,5 @@
-# Solo-Synth-GAN (Zero Shot Image-2-Video)
+# Solo-Synth-GAN (<b><i>Zero Shot</i></b> Image-2-Video)
+
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/PrateekJannu/Solo-Synth-GAN-v1.0/python-app.yml)
   ![GitHub Tag](https://img.shields.io/github/v/tag/PrateekJannu/Solo-Synth-GAN-v1.0)  ![GitHub repo size](https://img.shields.io/github/repo-size/PrateekJannu/Solo-Synth-GAN-v1.0)  ![GitHub Repo stars](https://img.shields.io/github/stars/PrateekJannu/Solo-Synth-GAN-v1.0)
@@ -7,6 +8,8 @@
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
+
+**[Documentation](https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0)** | **[Paper(Updated Soon)]()** | **[Code of Conduct](https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0?tab=coc-ov-file)** | **[Developer's Guide](https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0/blob/main/CONTRIBUTING.md)**
 ![Pyramid](Images/pyramid.jpg)
 
 
@@ -186,7 +189,7 @@ By understanding the purpose and usage of each parameter, users can effectively 
 - [ ] ...feel free to raise an issue for more environments.
 
 # 7 Contributing to Solo-Synth-GAN
-The Solo-Synth-GAN project welcomes, and depends on, contributions from developers and users in the open source community. Please see the [Contributing Guide](https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0/CONTRIBUTING.md) for information on how you can help.
+The Solo-Synth-GAN project welcomes, and depends on, contributions from developers and users in the open source community. Please see the [Contributing Guide](https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0/blob/main/CONTRIBUTING.md) for information on how you can help.
 
 # 8 Additional Data(Coming Soon!)
 

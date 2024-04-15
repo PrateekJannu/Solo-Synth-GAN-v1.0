@@ -1,9 +1,9 @@
 
 
-# 1. Contributing
+# 1. Contributing & Developer's Guide!
 
 We welcome everyone to contribute to Solo-Synth-GAN. This document is to help you on setting up your environment, finding a task, and opening pull requests.
-- [1. Contributing](#1-contributing)
+- [1. Contributing \& Developer's Guide!](#1-contributing--developers-guide)
   - [1.1 Development setup](#11-development-setup)
 - [2. Contributing to Solo-Synth-GAN](#2-contributing-to-solo-synth-gan)
   - [2.1 Code of Conduct](#21-code-of-conduct)
@@ -478,7 +478,7 @@ label from the same group.
 | `rejected`{ .label .rejected }        | The pull request is rejected for the stated reasons. |
 
 [Solo-Synth-GAN Organization]: https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0
-[Solo-Synth-GAN Code of Conduct]: https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0/CODE_OF_CONDUCT.md
+[Solo-Synth-GAN Code of Conduct]: https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0/blob/main/CONTRIBUTING.md
 [Solo-Synth-GAN/markdown]: https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0
 [issue tracker]: https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0/issues
 [syntax rules]: https://daringfireball.net/projects/markdown/syntax
