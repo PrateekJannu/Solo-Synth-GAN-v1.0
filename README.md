@@ -14,8 +14,9 @@
 
 
 # Solo-Synth GAN: Train only on one image
-
-![lightning_animation](Images/balloons.png) | ![lightning_animation](Results/start_scale=0_alpha=0.1_beta=0.95.gif)
+| Image | Video     |
+| :-------- | :------- |
+![lightning_animation](Images/balloons.png) | <img src="Results/start_scale=0_alpha=0.1_beta=0.95.gif" alt="video" width="100%" height="100%" loop=infinite> |
 
 This is the open-source repository for the project Solo-Synth GAN which is one of the latest zero shot generative adversarial network techniques for image-2-video while training it only on a <b><i>SINGLE IMAGE</i></b>
 For a concise summary of our research, please refer to our [paper](https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0). (Will be updated once paper is published)
@@ -150,7 +151,7 @@ python evaluate_model.py --gpu 0 --model_dir TrainedModels/balloons/...
 
 Original Image          |  Generated Video
 :-------------------------:|:-------------------------:|
-![lightning_animation](Images/balloons.png) | ![lightning_animation](Results/start_scale=0_alpha=0.1_beta=0.95.gif)![lightning_animation](Results/start_scale=1_alpha=0.1_beta=0.8.gif) ![lightning_animation](Results/start_scale=1_alpha=0.1_beta=0.85.gif)
+![lightning_animation](Images/balloons.png) | <img src="Results/start_scale=0_alpha=0.1_beta=0.95.gif" alt="video" width="100%" height="100%" loop=infinite> <img src="Results/start_scale=1_alpha=0.1_beta=0.8.gif" alt="video" width="100%" height="100%" loop=infinite> <img src="Results/start_scale=1_alpha=0.1_beta=0.85.gif" alt="video" width="100%" height="100%" loop=infinite>
 
 
 # 5 Parameter Tuning with examples 
