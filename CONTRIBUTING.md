@@ -1,6 +1,32 @@
+
+
 # 1. Contributing
 
 We welcome everyone to contribute to Solo-Synth-GAN. This document is to help you on setting up your environment, finding a task, and opening pull requests.
+- [1. Contributing](#1-contributing)
+  - [1.1 Development setup](#11-development-setup)
+- [2. Contributing to Solo-Synth-GAN](#2-contributing-to-solo-synth-gan)
+  - [2.1 Code of Conduct](#21-code-of-conduct)
+- [3. Project Organization](#3-project-organization)
+- [4.  Issues](#4--issues)
+- [5. Pull Requests](#5-pull-requests)
+- [6. Style Guides](#6-style-guides)
+  - [6.1 Code Style Guide](#61-code-style-guide)
+- [7. Documentation Style Guide](#7-documentation-style-guide)
+- [8. Headers](#8-headers)
+  - [8.2 Links](#82-links)
+  - [8.3 Changelog](#83-changelog)
+  - [8.4 Commit Message Style Guide](#84-commit-message-style-guide)
+- [9. Development Environment](#9-development-environment)
+- [10. Versions](#10-versions)
+  - [10.1 Version Status](#101-version-status)
+  - [10.2 Version Workflow](#102-version-workflow)
+- [11. Release Process](#11-release-process)
+- [12. Issue and Pull Request Labels](#12-issue-and-pull-request-labels)
+  - [12.1 Type of Issue or Pull Request](#121-type-of-issue-or-pull-request)
+  - [12.2 Category of Issue or Pull Request](#122-category-of-issue-or-pull-request)
+  - [12.3 Status of Issue](#123-status-of-issue)
+  - [12.4 Status of Pull Request](#124-status-of-pull-request)
 
 ## 1.1 Development setup
 
@@ -487,4 +513,3 @@ label from the same group.
 [PEP 440]: https://www.python.org/dev/peps/pep-0440/
 [PyPI]: https://pypi.org/project/Markdown/
 [Solo-Synth-GAN/Solo-Synth-GAN.github.io]: https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0.github.io
-

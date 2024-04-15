@@ -10,14 +10,32 @@
 ![Pyramid](Images/pyramid.jpg)
 
 
-
-
 # Solo-Synth GAN: Train only on one image
 
 ![lightning_animation](Images/balloons.png) | ![lightning_animation](Results/start_scale=0_alpha=0.1_beta=0.95.gif)
 
 This is the open-source repository for the project Solo-Synth GAN which is one of the latest zero shot generative adversarial network techniques for image-2-video while training it only on a <b><i>SINGLE IMAGE</i></b>
 For a concise summary of our research, please refer to our [paper](https://github.com/PrateekJannu/Solo-Synth-GAN-v1.0). (Will be updated once paper is published)
+
+# Table of Contents
+- [Solo-Synth-GAN (Zero Shot Image-2-Video)](#solo-synth-gan-zero-shot-image-2-video)
+- [Solo-Synth GAN: Train only on one image](#solo-synth-gan-train-only-on-one-image)
+- [Table of Contents](#table-of-contents)
+- [1. Overview](#1-overview)
+- [2. Repo Structure](#2-repo-structure)
+- [3. Model Architecture](#3-model-architecture)
+  - [3.1 Model Architecture GPU (Nvidia, TPU, A100, V100, NcASV3/6)](#31-model-architecture-gpu-nvidia-tpu-a100-v100-ncasv36)
+  - [3.2 Unconditional Generation (GPU is a must and required for training and generation)](#32-unconditional-generation-gpu-is-a-must-and-required-for-training-and-generation)
+  - [3.3 Customization Options](#33-customization-options)
+  - [3.4 Unconditional Generation (Arbitrary Sizes)](#34-unconditional-generation-arbitrary-sizes)
+- [4 Image-2-Video Zero Shot](#4-image-2-video-zero-shot)
+- [5 Parameter Tuning with examples](#5-parameter-tuning-with-examples)
+  - [5.1 Parameter Descriptions](#51-parameter-descriptions)
+- [6 Tested Environments](#6-tested-environments)
+- [7 Contributing to Solo-Synth-GAN](#7-contributing-to-solo-synth-gan)
+- [8 Additional Data(Coming Soon!)](#8-additional-datacoming-soon)
+- [9 Acknowledgements](#9-acknowledgements)
+
 
 # 1. Overview
 
