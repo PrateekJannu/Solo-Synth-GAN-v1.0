@@ -27,6 +27,8 @@ For a concise summary of our research, please refer to our [paper](https://githu
 - [Table of Contents](#table-of-contents)
 - [1. Overview](#1-overview)
 - [2. Repo Structure](#2-repo-structure)
+  - [2.1 Bill of Materials \& Licenses](#21-bill-of-materials--licenses)
+  - [Software Bill of Materials (SBOM)](#software-bill-of-materials-sbom)
 - [3. Model Architecture](#3-model-architecture)
   - [3.1 Model Architecture GPU (Nvidia, TPU, A100, V100, NcASV3/6)](#31-model-architecture-gpu-nvidia-tpu-a100-v100-ncasv36)
   - [3.2 Unconditional Generation (GPU is a must and required for training and generation)](#32-unconditional-generation-gpu-is-a-must-and-required-for-training-and-generation)
@@ -70,6 +72,47 @@ Images
 │  └─ saved_timelines.py
 └─ main.py
 ```
+
+## 2.1 Bill of Materials & Licenses
+## Software Bill of Materials (SBOM)
+
+This table provides a list of licenses associated with the dependencies used in this project. The SBOM is included in the `ssgan.bom` file. Each entry in the table corresponds to a dependency used in the project, along with its associated license.
+
+
+
+| License No | License Name            |
+|------------|-------------------------|
+| 0          | MPL-2.0                 |
+| 1          | mpmath                  |
+| 2          | pandas                  |
+| 3          | Apache-2.0              |
+| 4          | torchvision             |
+| 5          | opencv-python           |
+| 6          | scipy                   |
+| 7          | sympy                   |
+| 8          | types-python-dateutil   |
+| 9          | requests                |
+| 10         | chardet                 |
+| 11         | kiwisolver              |
+| 12         | MIT                     |
+| 13         | Unlicense               |
+| 14         | BSD-3-Clause            |
+| 15         | sortedcontainers        |
+| 16         | GPL-3.0-or-later        |
+| 17         | HPND                    |
+| 18         | fqdn                    |
+| 19         | cycler                  |
+| 20         | fsspec                  |
+| 21         | AGPL-3.0                |
+| 22         | jsonpointer             |
+| 23         | torch                   |
+| 24         | Python-2.0              |
+| 25         | python-dateutil         |
+| 26         | BSD-2-Clause            |
+| 27         | numpy                   |
+| 28         | ISC                     |
+| 29         | contourpy               |
+
 
 
 # 3. Model Architecture
