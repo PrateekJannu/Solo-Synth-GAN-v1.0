@@ -1,5 +1,4 @@
-# Solo-Synth-GAN (<b>Zero Shot</b> Image-to-Video) - Train only on one image
-
+# Solo-Synth-GAN (<b>Zero Shot</b> Image-to-Video) - Train only on one image <i>(US Provisional Patent Granted)</i>
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/PrateekJannu/Solo-Synth-GAN-v1.0/python-app.yml)
   ![GitHub Tag](https://img.shields.io/github/v/tag/PrateekJannu/Solo-Synth-GAN-v1.0)  ![GitHub repo size](https://img.shields.io/github/repo-size/PrateekJannu/Solo-Synth-GAN-v1.0)  ![GitHub Repo stars](https://img.shields.io/github/stars/PrateekJannu/Solo-Synth-GAN-v1.0)
